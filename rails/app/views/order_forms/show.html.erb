@@ -10,5 +10,11 @@
   <%= @order_form.quantity %>
 </p>
 
+
+<p>
+  <strong>Uploaded Material:</strong>
+  <%= @order_form.uploaded_material %>
+</p>
+
 <%= link_to 'Edit', edit_order_form_path(@order_form) %> |
 <%= link_to 'Back', order_forms_path %>

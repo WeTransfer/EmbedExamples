@@ -7,6 +7,7 @@
     <tr>
       <th>Description</th>
       <th>Quantity</th>
+      <th>Uploaded Material</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,6 +17,7 @@
       <tr>
         <td><%= order_form.description %></td>
         <td><%= order_form.quantity %></td>
+        <td><%= link_to nil, order_form.uploaded_material %></td>
         <td><%= link_to 'Show', order_form %></td>
         <td><%= link_to 'Edit', edit_order_form_path(order_form) %></td>
         <td><%= link_to 'Destroy', order_form, method: :delete, data: { confirm: 'Are you sure?' } %></td>

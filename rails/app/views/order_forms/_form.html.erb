@@ -21,6 +21,26 @@
     <%= form.number_field :quantity %>
   </div>
 
+  <div class="field">
+    <%= form.label :uploaded_material %>
+    <div data-widget-host="habitat" id="wt_embed">
+      <script type="text/props">
+        {
+          <%
+            # NOTE:
+            # The following WtEmbedKey is invalid.
+            # Create your own on developers.wetransfer.com/dashboard
+          %>
+          "wtEmbedKey": "bf6697ab-2299-443a-b58d-60c7df57104a",
+          "wtEmbedOutput": "#order_form_uploaded_material"
+        }
+      </script>
+    </div>
+    <link rel="stylesheet" href="https://developers.wetransfer.com/embed/bundle.css" />
+    <script async src="https://developers.wetransfer.com/embed/bundle.js"></script>
+    <%= form.text_field :uploaded_material, hidden: true %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
