@@ -1,3 +1,3 @@
 class OrderForm < ApplicationRecord
-  validates :description, :quantity, presence: true
+  validates :description, :quantity, :uploaded_material, presence: true
 end
