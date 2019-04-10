@@ -40,9 +40,12 @@
               }
             </script>
           </div>
-          <link rel="stylesheet" href="https://developers.wetransfer.com/embed/bundle.css" />
-          <script async src="https://developers.wetransfer.com/embed/bundle.js"></script>
-          <input type="text" name="uploaded_material" id="uploaded_material" class="invisible" />
+          <script async src="https://prod-embed-cdn.wetransfer.net/v1/latest.js"></script>
+          <!--
+            The next input element will hold the transfer link. For testing purposes, you
+            could change the type attribute to "text", instead of "hidden".
+          -->
+          <input type="hidden" name="uploaded_material" id="uploaded_material" />
         </p>
         <p>
           <input type="submit" value="Just print it!" />
