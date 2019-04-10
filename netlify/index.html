@@ -26,6 +26,25 @@
           <input type="text" name="quantity" id="quantity" />
         </p>
         <p>
+          <label for="uploaded_material">Images for your print</label>
+          <div data-widget-host="habitat" id="wt_embed">
+            <!--
+              -- NOTE:
+              -- The following WtEmbedKey is invalid.
+              -- Create your own on developers.wetransfer.com/dashboard
+              -->
+            <script type="text/props">
+              {
+                "wtEmbedKey": "bf6697ab-2299-443a-b58d-60c7df57104a",
+                "wtEmbedOutput": "#uploaded_material"
+              }
+            </script>
+          </div>
+          <link rel="stylesheet" href="https://developers.wetransfer.com/embed/bundle.css" />
+          <script async src="https://developers.wetransfer.com/embed/bundle.js"></script>
+          <input type="text" name="uploaded_material" id="uploaded_material" class="invisible" />
+        </p>
+        <p>
           <input type="submit" value="Just print it!" />
         </p>
       </form>

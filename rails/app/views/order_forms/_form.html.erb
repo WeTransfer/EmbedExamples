@@ -36,8 +36,11 @@
         }
       </script>
     </div>
-    <link rel="stylesheet" href="https://developers.wetransfer.com/embed/bundle.css" />
-    <script async src="https://developers.wetransfer.com/embed/bundle.js"></script>
+    <script async src="https://prod-embed-cdn.wetransfer.net/v1/latest.js"></script>
+    <!--
+      The next input element will hold the transfer link. For testing purposes, you
+      could get rid of the `hidden: true` options.
+    -->
     <%= form.text_field :uploaded_material, hidden: true %>
   </div>
 
