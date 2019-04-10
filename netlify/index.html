@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Print your whatevers</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <span id="logo">Dead Trees Print Shop</span>
+    <h1>Print Order</h1>
+    <div class="container">
+      <form name="order-queue" netlify-honeypot="full-name" action="/thanks" netlify>
+        <p class="invisible">
+          <label>Do not fill in if you're human: <input name="full-name" /> </label>
+          <input name="path" value="index.html" disabled />
+        </p>
+        <p>
+          <label for="description">Would you be so kind to describe your order?</label>
+          <input type="text" name="description" id="description" />
+        </p>
+        <p>
+          <label for="quantity">How many prints would you like to receive?</label>
+          <input type="text" name="quantity" id="quantity" />
+        </p>
+        <p>
+          <input type="submit" value="Just print it!" />
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
