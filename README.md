@@ -7,7 +7,11 @@ A collection of WeTransfer Embed examples.
 - [rails](rails/):
 
     The OrderForm has WeTransfer embed added to it.
-    See [this commit](https://github.com/WeTransfer/EmbedExamples/commit/096f26b309a80b2c404d8f678988185884817f99) for all changes involved.
+    See [this commit](https://github.com/WeTransfer/EmbedExamples/commit/717f354c5b6cc0990680f903391df6d09cf5862a) for all changes involved.
+- [Netlify](netlify/):
+
+    A Netlify website can have forms. Potentially you want to use WeTransfer Embed to receive large files.
+    See [this commit](https://github.com/WeTransfer/EmbedExamples/commit/b925418590adf6f4fa051fdde14779fe904ef34e) for all changes involved.
 - Your example here?
 
     We welcome your input. Please talk to us, request a feature, or better yet: open a Pull Request
