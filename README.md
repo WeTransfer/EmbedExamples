@@ -15,7 +15,7 @@ A collection of WeTransfer Embed examples.
 - [Wordpress](wordpress/):
 
     Wordpress websites can have forms. Instructions on hosting these embedded forms are easy and intuitive 
-    See [this commit](https://github.com/WeTransfer/EmbedExamples/commit/f95f4b409401ee45af5299e6f70fdc9017ddc536) for all changes involved.
+    See [this commit](https://github.com/WeTransfer/EmbedExamples/commit/3cce509fb066ced0ae60263442e6a0c4b803704f) for all changes involved.
 
 ## License
 
