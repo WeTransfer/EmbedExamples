@@ -12,9 +12,10 @@ A collection of WeTransfer Embed examples.
 
     A Netlify website can have forms. Potentially you want to use WeTransfer Embed to receive large files.
     See [this commit](https://github.com/WeTransfer/EmbedExamples/commit/b925418590adf6f4fa051fdde14779fe904ef34e) for all changes involved.
-- Your example here?
+- [Wordpress](wordpress/):
 
-    We welcome your input. Please talk to us, request a feature, or better yet: open a Pull Request
+    Wordpress websites can have forms. Instructions on hosting these embedded forms are easy and intuitive 
+    See [this commit](https://github.com/WeTransfer/EmbedExamples/commit/f95f4b409401ee45af5299e6f70fdc9017ddc536) for all changes involved.
 
 ## License
 
